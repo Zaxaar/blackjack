@@ -1,0 +1,316 @@
+{
+    "cards": [
+      {
+        "id": 1,
+        "value": "ace" ,
+        "color": "clubs" ,
+        "cardName": "_ace"
+      },
+      {
+        "id": 2,
+        "value": 2 ,
+        "color": "clubs" ,
+        "cardName": "_two"
+      },
+      {
+        "id": 3,
+        "value": 3,
+        "color": "clubs" ,
+        "cardName": "_three"
+      },
+      {
+        "id": 4,
+        "value": 4,
+        "color": "clubs" ,
+        "cardName": "_four"
+      },
+      {
+        "id": 5,
+        "value": 5,
+        "color": "clubs" ,
+        "cardName": "_five"
+      },
+      {
+        "id": 6,
+        "value": 6,
+        "color": "clubs" ,
+        "cardName": "_six"
+      },
+      {
+        "id": 7,
+        "value": 7,
+        "color": "clubs" ,
+        "cardName": "_seven"
+      },
+      {
+        "id": 8,
+        "value": 8,
+        "color": "clubs" ,
+        "cardName": "_eight"
+      },
+      {
+        "id": 9,
+        "value": 9,
+        "color": "clubs" ,
+        "cardName": "_nine"
+      },
+      {
+        "id": 10,
+        "value": 10,
+        "color": "clubs" ,
+        "cardName": "_ten"
+      },
+      {
+        "id": 11,
+        "value": 10,
+        "color": "clubs" ,
+        "cardName": "_jack"
+      },
+      {
+        "id": 12,
+        "value":10,
+        "color": "clubs" ,
+        "cardName": "_queen"
+      },
+      {
+        "id": 13,
+        "value":10,
+        "color": "clubs" ,
+        "cardName": "_king"
+      },
+      {
+        "id": 14,
+        "value": "ace",
+        "color": "hearts" ,
+        "cardName": "_ace"
+      },
+      {
+        "id": 15,
+        "value": 2,
+        "color": "hearts" ,
+        "cardName": "_two"
+      },
+      {
+        "id": 16,
+        "value": 3,
+        "color": "hearts" ,
+        "cardName": "_three"
+      },
+      {
+        "id": 17,
+        "value": 4,
+        "color": "hearts" ,
+        "cardName": "_four"
+      },
+      {
+        "id": 18,
+        "value": 5,
+        "color": "hearts" ,
+        "cardName": "_five"
+      },
+      {
+        "id": 19,
+        "value": 6,
+        "color": "hearts" ,
+        "cardName": "_six"
+      },
+      {
+        "id": 20,
+        "value": 7,
+        "color": "hearts" ,
+        "cardName": "_seven"
+      },
+      {
+        "id": 21,
+        "value": 8,
+        "color": "hearts" ,
+        "cardName": "_eight"
+      },
+      {
+        "id": 22,
+        "value": 9,
+        "color": "hearts" ,
+        "cardName": "_nine"
+      },
+      {
+        "id": 23,
+        "value": 10,
+        "color": "hearts" ,
+        "cardName": "_ten"
+      },
+      {
+        "id": 24,
+        "value": 10,
+        "color": "hearts" ,
+        "cardName": "_jack"
+      },
+      {
+        "id": 25,
+        "value": 10,
+        "color": "hearts" ,
+        "cardName": "_queen"
+      },
+      {
+        "id": 26,
+        "value": 10,
+        "color": "hearts" ,
+        "cardName": "_king"
+      },
+      {
+        "id": 27,
+        "value": "ace",
+        "color": "spades" ,
+        "cardName": "_ace"
+      },
+      {
+        "id": 28,
+        "value": 2,
+        "color": "spades" ,
+        "cardName": "_two"
+      },
+      {
+        "id": 29,
+        "value": 3,
+        "color": "spades" ,
+        "cardName": "_three"
+      },
+      {
+        "id": 30,
+        "value": 4,
+        "color": "spades" ,
+        "cardName": "_four"
+      },
+      {
+        "id": 31,
+        "value": 5,
+        "color": "spades" ,
+        "cardName": "_five"
+      },
+      {
+        "id": 32,
+        "value": 6,
+        "color": "spades" ,
+        "cardName": "_six"
+      },
+      {
+        "id": 33,
+        "value": 7,
+        "color": "spades" ,
+        "cardName": "_seven"
+      },
+      {
+        "id": 34,
+        "value": 8,
+        "color": "spades" ,
+        "cardName": "_eight"
+      },
+      {
+        "id": 35,
+        "value": 9,
+        "color": "spades" ,
+        "cardName": "_nine"
+      },
+      {
+        "id": 36,
+        "value": 10,
+        "color": "spades" ,
+        "cardName": "_ten"
+      },
+      {
+        "id": 37,
+        "value": 10,
+        "color": "spades" ,
+        "cardName": "_jack"
+      },
+      {
+        "id": 38,
+        "value": 10,
+        "color": "spades" ,
+        "cardName": "_queen"
+      },
+      {
+        "id": 39,
+        "value": 10,
+        "color": "spades" ,
+        "cardName": "_king"
+      },
+      {
+        "id": 40,
+        "value": "ace",
+        "color": "diamonds" ,
+        "cardName": "_ace"
+      },
+      {
+        "id": 41,
+        "value": 2,
+        "color": "diamonds" ,
+        "cardName": "_two"
+      },
+      {
+        "id": 42,
+        "value": 3,
+        "color": "diamonds" ,
+        "cardName": "_three"
+      },
+      {
+        "id": 43,
+        "value": 4,
+        "color": "diamonds" ,
+        "cardName": "_four"
+      },
+      {
+        "id": 44,
+        "value": 5,
+        "color": "diamonds" ,
+        "cardName": "_five"
+      },
+      {
+        "id": 45,
+        "value": 6,
+        "color": "diamonds" ,
+        "cardName": "_six"
+      },
+      {
+        "id": 46,
+        "value": 7,
+        "color": "diamonds" ,
+        "cardName": "_seven"
+      },
+      {
+        "id": 47,
+        "value": 8,
+        "color": "diamonds" ,
+        "cardName": "_eight"
+      },
+      {
+        "id": 48,
+        "value": 9,
+        "color": "diamonds" ,
+        "cardName": "_nine"
+      },
+      {
+        "id": 49,
+        "value": 10,
+        "color": "diamonds" ,
+        "cardName": "_ten"
+      },
+      {
+        "id": 50,
+        "value": 10,
+        "color": "diamonds" ,
+        "cardName": "_jack"
+      },
+      {
+        "id": 51,
+        "value": 10,
+        "color": "diamonds" ,
+        "cardName": "_queen"
+      },
+      {
+        "id": 52,
+        "value": 10,
+        "color": "diamonds" ,
+        "cardName": "_king"
+      }
+    ]
+}

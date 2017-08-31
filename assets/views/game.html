@@ -1,0 +1,40 @@
+
+<div class="row justify-content-center text-center" ng-show="gameOn">
+  <div class="col-md">
+    <h4>Player {{activePlayer === 0 ? 'One' : 'Two'}} turn</h4>
+  </div>
+</div>
+
+<div class="row justify-content-center text-center" ng-show="!gameOn">
+  <div class="col-md">
+    <h4>{{ players[winner].name ? players[winner].name + ' won!' : 'Draw!'}}</h4>
+  </div>
+</div>
+
+<div class="row justify-content-center text-center">
+  <div id="player0" class="col-md order-md-1 order-2 player {{markActivePlayer(0)}}">
+    <span class="player-name">Player One</span>
+    <h5 class="player-cash">{{cash[0]}} $</h5>
+    <h5 class="player-score">{{players[0].finalScore}}</h5>
+    <div class="player-cards">
+      <img ng-repeat="card in players[0].cards" ng-src="{{'assets/images/cards/' + card.color + card.cardName +'.svg'}}">
+    </div>
+  </div>
+
+  <div class="col-md-3 order-md-2 order-1">
+    <img class="deck" ng-click="hit(activePlayer)" ng-src="{{'assets/images/cards/card_back.svg'}}">
+    <button class="game-button btn btn-block btn-sm btn-outline-light" ng-click="hit(activePlayer)" ng-show="gameOn"> hit </button>
+    <button class="game-button btn btn-block btn-sm btn-outline-light" ng-click="hold()" ng-show="gameOn"> hold </button>
+
+    <button class="game-button btn btn-block btn-sm btn-outline-light" ng-click="playGame()" ng-show="!gameOn"> continue </button>
+  </div>
+
+  <div id="player1" class="col-md order-md-3 order-3 player {{markActivePlayer(1)}}">
+    <span class="player-name">Player Two</span>
+    <h5 class="player-cash">{{cash[1]}} $</h5>
+    <h5 class="player-score">{{players[1].finalScore}}</h5>
+    <div class="player-cards">
+      <img ng-repeat="card in players[1].cards" ng-src="{{'assets/images/cards/' + card.color + card.cardName +'.svg'}}">
+    </div>
+  </div>
+</div>

@@ -1,0 +1,11 @@
+<div class="row text-center">
+  <div class="col">
+
+    <h3 ng-show="winner !== null"> {{ players[winner].name + ' won the game!'}} </h3>
+    <h4 ng-show="winner !== null">
+      <small> {{ 'He scored ' + players[winner].finalScore + ' points in the last round.'}} </small>
+    </h4>
+    <button class="game-button btn-block btn btn-sm btn-outline-light" ng-click="backHome()"> title screen </button>
+
+  </div>
+</div>
