@@ -12,7 +12,7 @@
 </div>
 
 <div class="row justify-content-center text-center">
-  <div id="player0" class="col-md order-md-1 order-2 player {{markActivePlayer(0)}}">
+  <div id="player0" class="col-md col-sm-6 order-md-1 order-2 player {{markActivePlayer(0)}}">
     <span class="player-name">Player One</span>
     <h5 class="player-cash">{{cash[0]}} $</h5>
     <h5 class="player-score">{{players[0].finalScore}}</h5>
@@ -29,7 +29,7 @@
     <button class="game-button btn btn-block btn-sm btn-outline-light" ng-click="playGame()" ng-show="!gameOn"> continue </button>
   </div>
 
-  <div id="player1" class="col-md order-md-3 order-3 player {{markActivePlayer(1)}}">
+  <div id="player1" class="col-md col-sm-6 order-md-3 order-3 player {{markActivePlayer(1)}}">
     <span class="player-name">Player Two</span>
     <h5 class="player-cash">{{cash[1]}} $</h5>
     <h5 class="player-score">{{players[1].finalScore}}</h5>
